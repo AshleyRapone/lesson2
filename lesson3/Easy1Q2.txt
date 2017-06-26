@@ -1,0 +1,21 @@
+Describe the difference between ! and ? in Ruby. And explain what would happen in the following scenarios:
+1. what is != and where should you use it?
+   != means not equal to.
+   You should use in when you are writing conditional statements
+
+2. put ! before something, like !user_name
+   ! before something means not
+   so !user_name means opposite of user_name
+
+3. put ! after something, like words.uniq!
+   It permanently changes the value of the object
+
+4. put ? before something
+   It is the ternary operator for if... else
+   boolean ? true : false
+
+5. put ? after something
+   ? after something is part of the method name
+
+6. put !! before something, like !!user_name
+   used to turn any object into their boolean equivalent
